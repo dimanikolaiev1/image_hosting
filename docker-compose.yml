@@ -1,8 +1,6 @@
 services:
   app:
-    build: ../../Desktop/image-hosting
-    ports:
-      - "8000:8000" 
+    build: .
     volumes:
       - ./images:/app/images
       - ./logs:/app/logs
