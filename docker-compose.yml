@@ -1,6 +1,8 @@
 services:
   app:
     build: .
+    expose:
+      - "8000"
     volumes:
       - ./images:/app/images
       - ./logs:/app/logs
