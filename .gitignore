@@ -8,3 +8,4 @@ logs/*
 backups/*
 !backups/.gitkeep
 .DS_Store
+echo ".idea" >> .gitignore
